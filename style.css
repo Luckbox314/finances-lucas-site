@@ -1,0 +1,4 @@
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--accent:#2457c5}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#e8e8e8;--muted:#9a9a9a;--accent:#7aa2ff}}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,sans-serif;max-width:680px;margin:0 auto;padding:40px 16px}
+a{color:var(--accent)}h1{line-height:1.2}small,.muted{color:var(--muted)}
